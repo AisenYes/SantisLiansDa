@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIZZZZZZZZZZZZZZZZZZZZ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            padding: 0;
+            margin: 0;
+            overflow: hidden; /* Ensures no scrollbars */
+        }
+
+        /* Set the gif to repeat across the background */
+        body {
+            background-image: url('https://media.giphy.com/media/YLx7SXuC7CWGFyzC6a/giphy.gif');
+            background-repeat: repeat;
+            background-size: contain; /* Make sure the gif scales properly */
+            background-position: center center;
+        }
+
+        h1 {
+            color: #ff77b5;
+            font-size: 50px;
+            margin-top: 50px;
+        }
+
+        p {
+            font-size: 24px;
+            margin: 20px;
+        }
+
+        /* To make sure the audio doesn't interfere with the content */
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Add an audio element -->
+    <audio id="audio" loop>
+        <source src="uiia.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <h1>YAY YIPPPPPPPPPPPPPPIEEEEEEEEEEEEEEEEEE!</h1>
+    <p>I am so grateful to have the most intelligent, funniest, prettiest, wittiest, consideratest, stylishest, glimmeringest, enchantingest, brightest goofiest skibidiest girlfriend in all of existence and non-existence. I LOVE YOU SO MUCH</p>
+    
+    <!-- Button to play the audio -->
+    <button onclick="playAudio()">Play Sound</button>
+
+    <script>
+        function playAudio() {
+            var audio = document.getElementById("audio");
+            audio.play(); // Play the audio
+        }
+    </script>
+</body>
+</html>
